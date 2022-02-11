@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+    font-family: 'Amatic SC', Helvetica, sans-serif;
+}
+
+#title {
+    color: #333;
+    font-size: 120px;
+    margin: -10px 0px 0px -10px;
+    width: 110%;
+    background-color: rgba(110, 108, 108, 0.3);
+    padding: 10px 0px 10px 30px;
+}
+
+ul {
+    display: inline;
+    font-size: 40px;
+}   
