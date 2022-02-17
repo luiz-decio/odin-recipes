@@ -2,18 +2,40 @@
 
 body {
     font-family: 'Amatic SC', Helvetica, sans-serif;
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+    margin: auto;
 }
 
 #title {
+    border: solid red;
     color: #333;
     font-size: 120px;
-    margin: -10px 0px 0px -10px;
-    width: 110%;
+    font-weight: 100;
+    margin: auto;
     background-color: rgba(110, 108, 108, 0.3);
     padding: 10px 0px 10px 30px;
 }
 
-ul {
-    display: inline;
-    font-size: 40px;
-}   
+#home-content {
+    display: flex;
+    gap: 20px;
+    border: 2px solid purple;
+}
+
+#item {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    border: 2px solid red;
+}
+
+#footer {
+    border: 2px solid red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+}
